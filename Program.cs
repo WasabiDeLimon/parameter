@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecuaciones_Paramétricas
+namespace Parametric_Ecuations
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ecuaciones Paramétricas";
-            Console.WriteLine("Valores en x");
+            Console.Title = "Parametric Ecuations";
+            Console.WriteLine("Values on x");
             for (int t = -1; t<=5; t++)
             {
                 double res = t - 7;
-                Console.WriteLine("x en {0} = {1} ", t, res);
+                Console.WriteLine("x in {0} = {1} ", t, res);
             }
-            Console.WriteLine("\nValores en y");
+            Console.WriteLine("\nValues on y");
             for (int t= -1; t<=5; t++)
             {
                 double res = (t * 2) - 7;
-                Console.WriteLine("y en {0} = {1} ", t, res);
+                Console.WriteLine("y in {0} = {1} ", t, res);
             }
             
             Console.ReadKey();
